@@ -19,10 +19,9 @@ body {
   grid-template-rows: repeat(var(--grid-columns), 1fr);
 }
 .grid-style {
-  padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
-  height: 15px;
-  width: 15px;
+  height: 30px;
+  width: 30px;
   display: inline-block;
 }
