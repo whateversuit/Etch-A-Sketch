@@ -10,8 +10,8 @@ body {
 }
 .container {
   border: 3px solid black;
-  height: auto;
-  width: auto;
+  height: 600px;
+  width: 600px;
   border-radius: 5px;
   display: grid;
   position: relative;
@@ -19,9 +19,9 @@ body {
   grid-template-rows: repeat(var(--grid-columns), 1fr);
 }
 .grid-style {
-  border: 1px solid #ddd;
+  border: 1px solid rgba(238, 236, 236, 0.6);
   text-align: center;
-  height: 30px;
-  width: 30px;
+  height: auto;
+  width: auto;
   display: inline-block;
 }

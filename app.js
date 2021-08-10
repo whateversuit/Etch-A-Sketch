@@ -1,7 +1,5 @@
 //Select container div.
-
 const container = document.querySelector('.container');
-
 
 let grid;
 function createGrid(rows, columns){
@@ -11,19 +9,11 @@ function createGrid(rows, columns){
     for (let i = 0; i < (rows * columns); i++) {
         grid = document.createElement('div');
         grid.addEventListener('mouseover', (e) => {
-        e.target.style.backgroundColor = "red";})
+        e.target.style.backgroundColor = "orange";})
         container.appendChild(grid).classList = "grid-style";
     //Creating a loop that loops through the desired grid and creating divs attached to container.
-        
+    //Also changes background color on mouseover on each grid item.
     }
     
 }
-
-createGrid(16, 16);
-
-
-// make grid generated stay within the container size. 
-
-// make change background on hover
-
-// create button that 
+createGrid(20, 20);
